@@ -3,13 +3,21 @@ name = "warframe-app"
 version = "0.1.0"
 description = ""
 authors = ["Łukasz Pitrus <pitrus1003@gmail.com>"]
-readme = "README.md"
+readme = "../README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = "^0.110.0"
 uvicorn = "^0.28.0"
+pre-commit = "^3.6.2"
+pyright = "^1.1.354"
+ruff = "^0.3.3"
+black = "^24.3.0"
+pytest = "^8.1.1"
 
+[tool.pyright]
+venvPath = "../."
+venv = ".venv"
 
 [build-system]
 requires = ["poetry-core"]
