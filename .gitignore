@@ -63,6 +63,7 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
+.ruff_cache/
 .pytest_cache/
 cover/
 coverage/
